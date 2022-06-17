@@ -29,7 +29,7 @@ body {
     justify-content: center;
 }
 
-label .sr-only{
+#container .registration label .sr-only{
     position: absolute;
     height: 1px;
     width: 1px;

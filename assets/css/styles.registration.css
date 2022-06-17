@@ -29,18 +29,6 @@ body {
     justify-content: center;
 }
 
-#container .registration label .sr-only{
-    position: absolute;
-    height: 1px;
-    width: 1px;
-    padding: 0;
-    margin: -1;
-    overflow: hidden;
-    clip-path: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-}
-
 #container {
     width: 45.4rem;
     height: 70rem;

@@ -29,7 +29,7 @@ body {
     justify-content: center;
 }
 
-form label .sr-only{
+label .sr-only{
     position: absolute;
     height: 1px;
     width: 1px;

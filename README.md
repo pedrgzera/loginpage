@@ -1,5 +1,6 @@
 <img src="/assets/image/imagemdopagina.png" alt="
 Imagem do projeto">
+### :link: <a href="https://bejewelled-kringle-7a1404.netlify.app/">Página de login</a>
 
 # Login & Sign up
 
@@ -24,8 +25,12 @@ As telas apresentam formas simples de fazer login ou se cadastrar. A ideia era f
 
 ## 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](/README.md) para mais detalhes.
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](/LICENSE) para mais detalhes.
 
+<<<<<<< HEAD
 <p align="center">Copyright © 2021 Seu Usuario</p>
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
+=======
+<p align="center">Copyright © 2021 Pedro Henrique</p
+>>>>>>> 75fc8811783338281566bfd9ba51c9bb3619a0b5

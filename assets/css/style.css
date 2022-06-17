@@ -29,7 +29,7 @@ body {
     justify-content: center;
 }
 
-label .sr-only{
+form label .sr-only{
     position: absolute;
     height: 1px;
     width: 1px;
@@ -229,12 +229,12 @@ label .sr-only{
 
 @media (max-width: 470px) {
     #container {
-        width: 40rem;
+        width: 35rem;
         height: 65rem;
     }
 
     #container form .registration,
     #container .button {
-        width: 36.4rem;
+        width: 31rem;
     }
 }

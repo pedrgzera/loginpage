@@ -24,6 +24,6 @@ As telas apresentam formas simples de fazer login ou se cadastrar. A ideia era f
 
 ## 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](/README.md) para mais detalhes.
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](/LICENSE) para mais detalhes.
 
 <p align="center">Copyright © 2021 Pedro Henrique</p

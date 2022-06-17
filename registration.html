@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Inscreva-se</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/assets/css/styles.registration.css" />
+    </head>
+    <body>
+        <main id="container">
+        <h1>Criar uma conta</h1>
+        <p>Conecte-se com seus amigos hoje!</p>
+        <form>
+            <div>
+            <div class="registration">
+                <img src="/assets/image/envelope.png" alt="email" />
+                <label class="sr-only" for="email">Seu E-mail</label>
+                <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Seu E-mail"
+                required
+                />
+            </div>
+            <div class="registration">
+                <img src="/assets/image/homem-usuario.png" alt="email" />
+                <label class="sr-only" for="name">Seu Nome</label>
+                <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Seu Nome"
+                required
+                />
+            </div>
+            <div class="registration">
+                <img src="/assets/image/trancar.png" alt="Cadeado senha" />
+                <label class="sr-only" for="password">Sua Senha</label>
+
+                <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Sua senha"
+                required
+                />
+
+                <img
+                id="eyeSvg"
+                onclick="eyeClick()"
+                src="/assets/image/olho.png"
+                alt="olho"
+                />
+            </div>
+            </div>
+            <a
+            class="forgetPassword"
+            href="https://www.flaticon.com/br/uicons?word=olho"
+            target="_blank"
+            >Ao se registrar, você aceita nossos <span>termos de uso</span> 
+            e a <span>nossa política de privacidade</span>.</a
+            >
+            <button class="button">Conectar</button>
+        </form>
+        <div class="contentLine1">
+            <div class="line1"></div>
+            <span class="alternativeOr">or</span>
+            <div class="line2"></div>
+        </div>
+
+        <div id="connected">
+            <!-- 
+            Adicionar o Firebase ao projeto JavaScript 
+            https://firebase.google.com/docs/web/setup?hl=pt-br 
+            ==
+            https://tecnoblog.net/responde/como-ver-sites-e-aplicativos-em-que-usei-facebook-login/
+            -->
+            <a class="contentSocial" href="#">
+            <img
+                class="conectRede"
+                src="/assets/image/facebook.png"
+                alt="Icon do Facebook"
+            /></a>
+            <a class="contentSocial" href="#">
+            <img
+                class="conectRede"
+                src="/assets/image/google.png"
+                alt="Icon do Google"
+            /></a>
+            <a class="contentSocial" href="#">
+            <img
+                class="conectRede"
+                src="/assets/image/gitgub.png"
+                alt="Icon do GitHub"
+            /></a>
+            <a class="contentSocial" href="#">
+            <img
+                class="conectRede"
+                src="/assets/image/linkedin.png"
+                alt="Icon do Linkedin"
+            /></a>
+        </div>
+        <p class="registerOption">
+            Já tem uma conta?
+            <a class="register" href="/index.html">Conectar</a>
+        </p>
+        </main>
+
+        <script src="/assets/js/main.js"></script>
+    </body>
+</html>

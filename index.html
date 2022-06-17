@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Conectar</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Estudar validação de inputs =>
+    https://www.w3schools.com/js/js_validation.asp -->
+
+    <main id="container">
+      <h1>Olá! Bem vindo de volta!</h1>
+      <p>Olá novamente, você fez falta!</p>
+      <form>
+        <div>
+          <div class="registration">
+            <img src="/assets/image/envelope.png" alt="email" />
+            <label class="sr-only" for="email">Seu E-mail</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Seu E-mail"
+              required
+            />
+          </div>
+          <div class="registration">
+            <img src="/assets/image/trancar.png" alt="Cadeado senha" />
+            <label class="sr-only" for="password">Sua Senha</label>
+
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Sua senha"
+              required
+            />
+
+            <img
+              id="eyeSvg"
+              onclick="eyeClick()"
+              src="/assets/image/olho.png"
+              alt="olho"
+            />
+          </div>
+        </div>
+        <a
+          class="forgetPassword"
+          href="#"
+          >Esquece minha senha</a
+        >
+        <button class="button">Conectar</button>
+      </form>
+      <div class="contentLine1">
+        <div class="line1"></div>
+        <span class="alternativeOr">or</span>
+        <div class="line2"></div>
+      </div>
+
+      <div id="connected">
+        <a class="contentSocial" href="#">
+          <img
+            class="conectRede"
+            src="/assets/image/facebook.png"
+            alt="Icon do Facebook"
+        /></a>
+        <a class="contentSocial" href="#">
+          <img
+            class="conectRede"
+            src="/assets/image/google.png"
+            alt="Icon do Google"
+        /></a>
+        <a class="contentSocial" href="#">
+          <img
+            class="conectRede"
+            src="/assets/image/gitgub.png"
+            alt="Icon do GitHub"
+        /></a>
+        <a class="contentSocial" href="#">
+          <img
+            class="conectRede"
+            src="/assets/image/linkedin.png"
+            alt="Icon do Linkedin"
+        /></a>
+      </div>
+      <p class="registerOption">
+        Não tem uma conta?
+        <a class="register" href="/registration.html">Inscrever-se</a>
+    </p>
+    </main>
+
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

@@ -217,12 +217,12 @@ label .sr-only{
 
 @media (max-width: 470px) {
     #container {
-        width: 40rem;
+        width: 35rem;
         height: 70rem;
     }
 
     #container form .registration,
     #container .button {
-        width: 36.4rem;
+        width: 31rem;
     }
 }

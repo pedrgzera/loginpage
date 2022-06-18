@@ -49,7 +49,6 @@ label .sr-only{
     padding: 2rem;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     border-radius: .6rem;
-    animation: slidein 1s ease-in-out;
 }
 
 @keyframes slidein {

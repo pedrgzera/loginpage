@@ -23,8 +23,10 @@
     <!-- Estudar validação de inputs =>
     https://www.w3schools.com/js/js_validation.asp -->
     <main id="container">
-      <h1>Olá! Bem vindo de volta!</h1>
-      <p>Olá novamente, você fez falta!</p>
+      <header>
+        <p>Olá novamente, você fez falta!</p>
+        <h1>Olá! Bem vindo de volta!</h1>
+      </header>
       <form>
         <div>
           <div class="registration">
@@ -56,49 +58,47 @@
             />
           </div>
         </div>
-        <a
-          class="forgetPassword"
-          href="#"
-          >Esquece minha senha</a
-        >
+        <a class="forgetPassword" href="#">Esquece minha senha</a>
         <button class="button">Conectar</button>
       </form>
-      <div class="contentLine1">
+      <section class="contentLine1">
         <div class="line1"></div>
         <span class="alternativeOr">or</span>
         <div class="line2"></div>
-      </div>
+      </section>
 
-      <div id="connected">
-        <a class="contentSocial" href="#">
-          <img
-            class="conectRede"
-            src="/assets/image/facebook.png"
-            alt="Icon do Facebook"
-        /></a>
-        <a class="contentSocial" href="#">
-          <img
-            class="conectRede"
-            src="/assets/image/google.png"
-            alt="Icon do Google"
-        /></a>
-        <a class="contentSocial" href="#">
-          <img
-            class="conectRede"
-            src="/assets/image/gitgub.png"
-            alt="Icon do GitHub"
-        /></a>
-        <a class="contentSocial" href="#">
-          <img
-            class="conectRede"
-            src="/assets/image/linkedin.png"
-            alt="Icon do Linkedin"
-        /></a>
-      </div>
-      <p class="registerOption">
-        Não tem uma conta?
-        <a class="register" href="/registration.html">Inscrever-se</a>
-    </p>
+      <footer>
+        <div id="connected">
+          <a class="contentSocial" href="#">
+            <img
+              class="conectRede"
+              src="/assets/image/facebook.png"
+              alt="Icon do Facebook"
+          /></a>
+          <a class="contentSocial" href="#">
+            <img
+              class="conectRede"
+              src="/assets/image/google.png"
+              alt="Icon do Google"
+          /></a>
+          <a class="contentSocial" href="#">
+            <img
+              class="conectRede"
+              src="/assets/image/gitgub.png"
+              alt="Icon do GitHub"
+          /></a>
+          <a class="contentSocial" href="#">
+            <img
+              class="conectRede"
+              src="/assets/image/linkedin.png"
+              alt="Icon do Linkedin"
+          /></a>
+        </div>
+        <p class="registerOption">
+          Não tem uma conta?
+          <a class="register" href="/registration.html">Inscrever-se</a>
+        </p>
+      </footer>
     </main>
 
     <script src="/assets/js/main.js"></script>

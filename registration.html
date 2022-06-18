@@ -1,107 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Inscreva-se</title>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/assets/css/styles.registration.css" />
-    </head>
-    <body>
-        <main id="container">
+  <head>
+    <title>Inscreva-se</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/styles.registration.css" />
+  </head>
+  <body>
+    <main id="container">
+      <header>
         <h1>Criar uma conta</h1>
         <p>Conecte-se com seus amigos hoje!</p>
-        <form>
-            <div>
-            <div class="registration">
-                <img src="/assets/image/envelope.png" alt="email" />
-                <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Seu E-mail"
-                required
-                />
-            </div>
-            <div class="registration">
-                <img src="/assets/image/homem-usuario.png" alt="email" />
-                <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Seu Nome"
-                required
-                />
-            </div>
-            <div class="registration">
-                <img src="/assets/image/trancar.png" alt="Cadeado senha" />
+      </header>
+      <form>
+        <div>
+          <div class="registration">
+            <img src="/assets/image/envelope.png" alt="email" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Seu E-mail"
+              required
+            />
+          </div>
+          <div class="registration">
+            <img src="/assets/image/homem-usuario.png" alt="email" />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Seu Nome"
+              required
+            />
+          </div>
+          <div class="registration">
+            <img src="/assets/image/trancar.png" alt="Cadeado senha" />
 
-                <input
-                type="password"
-                name="password"
-                id="password"
-                placeholder="Sua senha"
-                required
-                />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Sua senha"
+              required
+            />
 
-                <img
-                id="eyeSvg"
-                onclick="eyeClick()"
-                src="/assets/image/olho.png"
-                alt="olho"
-                />
-            </div>
-            </div>
-            <p class="forgetPassword">
-                Ao se registrar, você aceita nossos <span> <a href="#" target="_blank">termos de uso</a></span> 
-                e a <span> <a href="#" target="_blank">nossa política de privacidade</a></span>.
-            </p>
-            <button class="button">Conectar</button>
-        </form>
-        <div class="contentLine1">
-            <div class="line1"></div>
-            <span class="alternativeOr">or</span>
-            <div class="line2"></div>
+            <img
+              id="eyeSvg"
+              onclick="eyeClick()"
+              src="/assets/image/olho.png"
+              alt="olho"
+            />
+          </div>
         </div>
+        <p class="forgetPassword">
+          Ao se registrar, você aceita nossos
+          <span> <a href="#" target="_blank">termos de uso</a></span> e a
+          <span>
+            <a href="#" target="_blank">nossa política de privacidade</a></span
+          >.
+        </p>
+        <button class="button">Conectar</button>
+      </form>
+      <section class="contentLine1">
+        <div class="line1"></div>
+        <span class="alternativeOr">or</span>
+        <div class="line2"></div>
+      </section>
 
+      <footer>
         <div id="connected">
-            <!-- 
+          <!-- 
             Adicionar o Firebase ao projeto JavaScript 
             https://firebase.google.com/docs/web/setup?hl=pt-br 
             ==
             https://tecnoblog.net/responde/como-ver-sites-e-aplicativos-em-que-usei-facebook-login/
             -->
-            <a class="contentSocial" href="#">
+          <a class="contentSocial" href="#">
             <img
-                class="conectRede"
-                src="/assets/image/facebook.png"
-                alt="Icon do Facebook"
-            /></a>
-            <a class="contentSocial" href="#">
+              class="conectRede"
+              src="/assets/image/facebook.png"
+              alt="Icon do Facebook"
+          /></a>
+          <a class="contentSocial" href="#">
             <img
-                class="conectRede"
-                src="/assets/image/google.png"
-                alt="Icon do Google"
-            /></a>
-            <a class="contentSocial" href="#">
+              class="conectRede"
+              src="/assets/image/google.png"
+              alt="Icon do Google"
+          /></a>
+          <a class="contentSocial" href="#">
             <img
-                class="conectRede"
-                src="/assets/image/gitgub.png"
-                alt="Icon do GitHub"
-            /></a>
-            <a class="contentSocial" href="#">
+              class="conectRede"
+              src="/assets/image/gitgub.png"
+              alt="Icon do GitHub"
+          /></a>
+          <a class="contentSocial" href="#">
             <img
-                class="conectRede"
-                src="/assets/image/linkedin.png"
-                alt="Icon do Linkedin"
-            /></a>
+              class="conectRede"
+              src="/assets/image/linkedin.png"
+              alt="Icon do Linkedin"
+          /></a>
         </div>
         <p class="registerOption">
-            Já tem uma conta?
-            <a class="register" href="/index.html">Conectar</a>
+          Já tem uma conta?
+          <a class="register" href="/index.html">Conectar</a>
         </p>
-        </main>
+      </footer>
+    </main>
 
-        <script src="/assets/js/main.js"></script>
-    </body>
+    <script src="/assets/js/main.js"></script>
+  </body>
 </html>

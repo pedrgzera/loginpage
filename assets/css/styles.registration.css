@@ -49,6 +49,16 @@ label .sr-only{
     padding: 2rem;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     border-radius: .6rem;
+    animation: slidein 1s ease-in-out;
+}
+
+@keyframes slidein {
+    from {
+        margin-right: 100%;
+    }
+    to {
+        margin-right: 0;
+    }
 }
 
 #container h1 {
@@ -217,12 +227,12 @@ label .sr-only{
 
 @media (max-width: 470px) {
     #container {
-        width: 40rem;
+        width: 35rem;
         height: 70rem;
     }
 
     #container form .registration,
     #container .button {
-        width: 36.4rem;
+        width: 31rem;
     }
 }

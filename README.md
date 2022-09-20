@@ -1,6 +1,12 @@
-<img src="/assets/image/imagemdopagina.png" alt="
+<img src="./assets/.github/preview.png" alt="
 Imagem do projeto">
-### :link: <a href="https://bejewelled-kringle-7a1404.netlify.app/">Página de login</a>
+
+<div align="center">
+<a href="https://bejewelled-kringle-7a1404.netlify.app/">Clique aqui para visualizar o projeto</a>
+</div>
+
+<br/>
+<br/>
 
 # Login & Sign up
 
